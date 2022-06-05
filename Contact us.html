@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="images/teajonIcon.png">
+	<style type="text/css">
+		.footer{
+			width: 100%;
+			text-align: center;
+			padding: 30px 0;
+			font-size: 30px;
+		}
+		.footer h4{
+			margin-bottom: 25px;
+			margin-top: 20px;
+			font-weight: 600;
+		}
+		.icons .fa{
+			color: #f44336;
+			margin: 0 13px;
+			cursor: pointer;
+			padding: 18px 0;
+
+		}
+	</style>
+	<title>Contact us</title>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<div class="navi" id="navi">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="Index.html">HOME</a></li>
+					<li><a href="Flavors.html">MENU</a></li>
+					<li><a href="Blog.html">BLOG</a></li>
+					<li><a href="Franchise.html">FRANCHISE</a></li>
+					<li><a href="Contact us.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>		
+	</section>
+	<div class="sub-header">
+	</div>
+<!-------- Contact us ------->
+<div style="background-image: url(images/bg3.png); background-attachment: fixed;">
+
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.69656767289527!2d120.66778468846228!3d16.006010789875013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339117cceb93b5a1%3A0xf900ea5d353d8b34!2sMb%20Asingan!5e0!3m2!1sen!2sph!4v1652351007636!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>	
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<span>
+					<h5>T&D Rich Building</h5>
+					<p>Poblacion West, Asingan, Pangasinan</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<span>
+					<h5>09158927731</h5>
+					<p>Store Hours: 10:30am to 8:00pm</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<span>
+					<h5>teajonasingan@gmail.com</h5>
+					<p>Message us</p>
+				</span>
+			</div>
+		</div>
+		<div class="contact-col">
+			<form action="">
+				<input type="text" placeholder="Enter your name" required>
+				<input type="email" placeholder="Enter email address" required>
+				<input type="text" placeholder="Enter your subject" required>
+				<textarea rows="8" placeholder="Message" required></textarea>
+				<button type="submit" class="btn-2">Send Message</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+
+<!-------- footer ------->	
+
+	<section class="footer">
+		<h4 class="title">Follow us</h4>
+		<div class="icons">
+			<a href="https://www.facebook.com/Teajon25Asingan/"><i class="fa fa-facebook"></i></a> 
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter"></i>
+		</div>
+		<p>Copyright 2022 - Aaron Lopez</p>
+	</section>
+
+</div>
+<script type="text/javascript">
+	
+	var navi = document.getElementById("navi");
+
+	function showMenu(){
+		navi.style.left = "0";
+	}
+	function hideMenu(){
+		navi.style.left = "-200px";
+	}
+</script>
+	</body>
+</html>

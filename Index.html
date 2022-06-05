@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="images/teajonIcon.png">
+	<style type="text/css">
+		.footer{
+			width: 100%;
+			text-align: center;
+			padding: 30px 0;
+			font-size: 30px;
+		}
+		.footer h4{
+			margin-bottom: 25px;
+			margin-top: 20px;
+			font-weight: 600;
+		}
+		.icons .fa{
+			color: #f44336;
+			margin: 0 13px;
+			cursor: pointer;
+			padding: 18px 0;
+
+		}
+		.fa-heart-o{
+			color: #f44336;
+		}
+
+	</style>
+	<title>Home</title>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<div class="navi" id="navi">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="Index.html">HOME</a></li>
+					<li><a href="Flavors.html">MENU</a></li>
+					<li><a href="Blog.html">BLOG</a></li>
+					<li><a href="Franchise.html">FRANCHISE</a></li>
+					<li><a href="Contact us.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>		
+	</section>
+	<div class="img-Banner">
+		<div class="text-box">
+			<a href="Contact us.html" class="btn-2">Visit us to know More</a>
+		</div>
+	</div>
+<!-------- Costumers ------->
+<div style="background-image: url(images/bg3.png); background-attachment: fixed;">
+	<section class="costumers">
+		<h1>Our valued Costumers. Thank you!</h1>
+		<p>2nd of June 2022</p>
+		<div class="costumersPic">
+			<div class="small-container">
+				<div class="row">
+					<div class="col">
+						<img src="images/pic1.jpg">
+					</div>
+					<div class="col">
+						<img src="images/pic2.jpg">
+					</div>
+					<div class="col">
+						<img src="images/pic3.jpg">
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+<!-------- Our Store ------->
+	<section class="store">
+		<h1 class="title">Our Store</h1>
+		<div class="row">
+			<div class="col">
+				<img src="images/combo.jpg">
+				<p>Enjoy from different tasty snacks.</p>
+			</div>
+			<div class="col">
+				<img src="images/games.jpg">
+				<p>Have fun with friends.</p>
+			</div>
+			<div class="col">
+				<img src="images/combo 2.jpg">
+				<p>Good food and great vibes.</p>
+			</div>
+		</div>
+	</section>
+
+<!-------- Check out ------->	
+	<h1 class="title">Featured Products</h1>
+	<div class="checkOut">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-2">
+					<img src="images/coffee matcha.png" class="checkOut-img">
+				</div>
+				<div class="col-2">
+					<h1>Relax with our<br> coffee Series</h1>
+					<p>@Teajon25</p>
+					<br><br><br><br>
+					<a href="Flavors.html" class="btn-2" >Check out   >>></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>	<br>	<br>	<br>	<br>	<br>
+	<div class="checkOut-2">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-2">
+					<img src="images/Burger.jpg" class="checkOut-img">
+				</div>
+				<div class="col-2">
+					<h1>Try out our<br> Special Burgers</h1>
+					<p>@Teajon25</p>
+					<br><br><br><br>
+					<a href="Flavors.html" class="btn-2">Check out   >>></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------- Franchise------->
+	<br>	<br>	<br>	<br>	<br>	<br>
+		<h1 class="title">Franchise</h1>
+		<section class="enroll">
+			<h1>GROW WITH US<br>Be the boss of your own business</h1>
+			<a href="Franchise.html" class="btn">Know more</a>
+			
+		</section>
+
+<!-------- footer ------->	
+
+	<section class="footer">
+		<h4 class="title">Follow us</h4>
+		<div class="icons">
+			<a href="https://www.facebook.com/Teajon25Asingan/"><i class="fa fa-facebook"></i></a> 
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter"></i>
+		</div>
+		<p>Copyright 2022 - Aaron Lopez</p>
+	</section>
+</div>
+
+<script type="text/javascript">
+	
+	var navi = document.getElementById("navi");
+
+	function showMenu(){
+		navi.style.left = "0";
+	}
+	function hideMenu(){
+		navi.style.left = "-200px";
+	}
+</script>
+	</body>
+</html>
